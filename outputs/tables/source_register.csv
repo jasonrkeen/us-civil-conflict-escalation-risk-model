@@ -1,0 +1,5 @@
+source_name,provider,role,access_method,update_frequency,status,retrieved_at_utc,notes
+ACLED Event Dataset,ACLED,Political violence and demonstration event layer,OAuth-authenticated API,Weekly,Implemented,2026-07-08T14:11:10.846329+00:00,Raw events are cached locally. Phase 2 uses state-month aggregation; deleted-event reconciliation is planned for a later phase.
+Local Area Unemployment Statistics,U.S. Bureau of Labor Statistics,Monthly state economic stress layer,Public Data API,Monthly,Planned,,Will provide unemployment level and change indicators.
+Population Estimates,U.S. Census Bureau,Population denominators for per-capita rates,Public API/download,Annual,Planned,,Required before per-million event rates are calculated.
+V-Dem Dataset v16,V-Dem Institute,Slow-moving national institutional baseline,Research dataset,Annual,Planned,,Will not be misrepresented as a monthly state-level signal.

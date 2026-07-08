@@ -1,0 +1,2 @@
+source,earliest_observation,latest_observation,assessed_as_of,age_days,freshness_status,latest_month_partial,current_assessment_allowed
+ACLED Event Dataset,2025-01-01,2025-07-08,2026-07-08,365,HISTORICAL_ONLY,True,False

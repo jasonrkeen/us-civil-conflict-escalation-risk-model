@@ -1,0 +1,56 @@
+# Secrets and local environment
+.env
+.venv/
+venv/
+env/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local audit / temporary files
+project_tree.txt
+*.log
+tmp/
+temp/
+
+# Raw event data: keep local unless redistribution rights are confirmed
+data/raw/acled_us_events.csv
+
+# Optional local credentials or tokens
+*.pem
+*.key
+
+# Reproducible local data caches
+data/raw/*.csv
+data/processed/*.csv
+
+# Keep raw-data documentation
+!data/raw/README.md
+
+# Intermediate analytical tables kept local for initial public release
+outputs/tables/bls_skipped_observations.csv
+outputs/tables/event_data_sensitivity.csv
+outputs/tables/event_pattern_validation.csv
+outputs/tables/failure_mode_combinations.csv
+outputs/tables/historical_state_month_scores.csv
+outputs/tables/monte_carlo_robustness.csv
+outputs/tables/pattern_composition_audit.csv
+outputs/tables/score_contributions.csv
+outputs/tables/stage_validation_audit.csv
+outputs/tables/state_month_escalation_scores.csv
